@@ -383,7 +383,6 @@ ONGOING TASKS:
 DL: {num_active} || UP : {num_upload} || SPLIT : {num_split}
 ZIP : {num_archi} || UNZIP : {num_extract} || TOTAL : {tasks} 
 """
-"""
     return stats
 dispatcher.add_handler(
     CallbackQueryHandler(pop_up_stats, pattern="^" + str(THREE) + "$")

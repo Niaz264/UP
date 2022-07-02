@@ -384,7 +384,7 @@ DL: {num_active} || UP : {num_upload} || SPLIT : {num_split}
 ZIP : {num_archi} || UNZIP : {num_extract} || TOTAL : {tasks} 
 """
 
-Made with ❤️ by @UncensoredPlaygrounds
+Made with ❤ by @UncensoredPlaygrounds
 """
     return stats
 dispatcher.add_handler(

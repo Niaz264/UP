@@ -379,9 +379,8 @@ T-DN: {recv} | T-UP: {sent}
 CPU: {cpu}% | RAM: {mem}%
 Disk: {total} | Free: {free}
 Used: [{disk}%] is {used}
-ONGOING TASKS:
-DL: {num_active} || UP : {num_upload} || SPLIT : {num_split}
-ZIP : {num_archi} || UNZIP : {num_extract} || TOTAL : {tasks} 
+
+Made with 🙂 by @UncensoredPlayground
 """
     return stats
 dispatcher.add_handler(
